@@ -1,0 +1,7 @@
+bg_silicon_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_silicon_mine
+
+	can_use_slaves = yes
+}

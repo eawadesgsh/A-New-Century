@@ -1,0 +1,97 @@
+﻿# goods types, organized by category
+
+# prestige_factor							Base prestige for occupying the rank MIN_PRESTIGE_AWARD spot on the goods production leaderboard. x2 awarded for every rank above the minimum
+
+mail = {
+	texture = "gfx/interface/icons/goods_icons/mail.dds"
+	cost = 20
+	category = staple
+	local = yes
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 100
+}
+
+mail2 = {
+	texture = "gfx/interface/icons/goods_icons/mail2.dds"
+	cost = 40
+	category = staple
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 100
+	convoy_cost_multiplier = 0.25
+}
+
+copper = {
+	texture = "gfx/interface/icons/goods_icons/copper.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+cable = {
+	texture = "gfx/interface/icons/goods_icons/cable.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.5
+}
+
+lightbulb = {
+	texture = "gfx/interface/icons/goods_icons/lightbulb.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}
+
+typewritter = {
+	texture = "gfx/interface/icons/goods_icons/typewritter.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}
+
+telegraph = {
+	texture = "gfx/interface/icons/goods_icons/telegraph.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}
+
+punching_card_machine = {
+	texture = "gfx/interface/icons/goods_icons/punching_card_machine.dds"
+	cost = 80
+	category = industrial
+	
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}
+
+turbine = {
+	texture = "gfx/interface/icons/goods_icons/turbine.dds"
+	cost = 80
+	category = industrial
+	
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}
+
+bicycle = {
+	texture = "gfx/interface/icons/goods_icons/bicycle.dds"
+	cost = 50
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}

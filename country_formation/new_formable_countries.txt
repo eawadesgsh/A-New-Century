@@ -1,0 +1,22 @@
+﻿EAF = {
+	states = {
+        STATE_KATANGA
+        STATE_LUALABA
+        STATE_UGANDA
+        STATE_TANGANYIKA
+        STATE_LINDI
+        STATE_ZANZIBAR
+        STATE_KENYA
+        STATE_RIFT_VALLEY
+        STATE_KAZEMBE
+        STATE_EQUATORIA
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+	    has_technology_researched = pan-nationalism
+	}
+}

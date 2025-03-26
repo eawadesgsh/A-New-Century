@@ -1,0 +1,7 @@
+silicon = {
+    texture = "gfx/interface/icons/goods_icons/silicon.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 10
+}

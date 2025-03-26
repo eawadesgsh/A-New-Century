@@ -1,0 +1,17 @@
+building_silicon_mine = {
+    building_group = bg_silicon_mining
+    icon = "gfx/interface/icons/building_icons/silicon_mine.png"
+    city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+    unlocking_technologies = {
+		rotary_valve_engine
+	}
+	production_method_groups = {
+    	pmg_base_building_silicon_mine
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+}

@@ -1,0 +1,18 @@
+﻿bg_copper_mine = {
+	parent_group = bg_mining
+	
+	capped_by_resources = yes
+	
+	default_building = building_copper_mine
+
+	can_use_slaves = yes
+
+	economy_of_scale_ai_factor = 1.0
+	foreign_investment_ai_factor = 0.5
+}
+
+bg_post = {
+	parent_group = bg_urban_facilities
+	infrastructure_usage_per_level = 0.5
+	urbanization = 5
+}

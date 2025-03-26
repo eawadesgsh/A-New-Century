@@ -1,0 +1,204 @@
+﻿building_bicycle_factory = {
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/bicycle_factory.dds"
+	levels_per_mesh = 0
+	residence_points_per_level = 0
+	city_type = none
+	
+	unlocking_technologies = {
+		shift_work
+	}
+
+	production_method_groups = {
+		pmg_bicycle
+		pmg_bicycle_wheel
+		pmg_automation_building_motor_industry
+	}
+	ai_value = {
+		value = 250
+	}
+	
+	required_construction = construction_cost_high
+	
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_typewritter_factory = {
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/typewritter_factory.dds"
+	levels_per_mesh = 0
+	residence_points_per_level = 0
+	city_type = none
+	
+	unlocking_technologies = {
+		shift_work
+	}
+
+	production_method_groups = {
+		pmg_typewritter
+		pmg_punching_card_machine
+		pmg_automation_building_motor_industry
+	}
+		ai_value = {
+		value = 1000
+	}
+	
+	required_construction = construction_cost_high
+	
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/_bg_light_industry.dds"
+}
+
+building_lightbulb_factory = {
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/lightbulb_factory.dds"
+	levels_per_mesh = 0
+	residence_points_per_level = 0
+	city_type = none
+	
+	unlocking_technologies = {
+		electric_telegraph
+	}
+
+	production_method_groups = {
+		pmg_cable
+		pmg_cable_insulation
+		pmg_lightbulb
+		pmg_automation_building_motor_industry
+	}
+		ai_value = {
+		value = 500
+	}
+	
+	required_construction = construction_cost_high
+	
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_motor_industry = {
+	building_group = bg_heavy_industry
+	icon = "gfx/interface/icons/building_icons/motor_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+
+	production_method_groups = {
+		pmg_base_building_motor_industry
+		pmg_automation_building_motor_industry
+	}
+		ai_value = {
+		value = 350
+	}
+	
+	required_construction = construction_cost_high
+
+	possible = {
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned }
+		}
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+}
+
+building_motor_factory = {
+	building_group = bg_heavy_industry
+	icon = "gfx/interface/icons/building_icons/foundry.dds"
+	city_type = city
+	levels_per_mesh = 3
+	
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+	production_method_groups = {
+		pmg_turbine
+	}
+		ai_value = {
+		value = 500
+	}
+
+	required_construction = construction_cost_high
+
+	possible = {
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned }
+		}
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+
+	ownership_type = self
+}
+building_car_factory = {
+	building_group = bg_heavy_industry
+	icon = "gfx/interface/icons/building_icons/car_factory.dds"
+	levels_per_mesh = 3
+	residence_points_per_level = 1
+	city_type = none
+	
+	unlocking_technologies = {
+		combustion_engine
+	}
+
+	production_method_groups = {
+		pmg_car_production
+		pmg_car_wheel
+		pmg_automation_building_motor_industry
+	}
+		ai_value = {
+		value = 1000
+	}
+	
+	required_construction = construction_cost_very_high
+	
+	possible = {
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned }
+		}
+	}
+	
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+}
+
+building_electrics_industry = {
+	building_group = bg_heavy_industry
+	icon = "gfx/interface/icons/building_icons/electrics_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		electric_telegraph
+	}
+
+	production_method_groups = {
+		pmg_telegraphs
+		pmg_telephones_category
+		pmg_radios_category
+		pmg_automation_building_motor_industry
+	}
+		ai_value = {
+		value = 750
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned }
+		}
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+}

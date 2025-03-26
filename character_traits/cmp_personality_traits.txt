@@ -1,0 +1,168 @@
+﻿### Traits related to modern diversity, Why Not?
+
+disablity = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/tactful.dds"
+
+	character_modifier = {	
+		character_popularity_add = 15
+		character_health_add = -0.05
+	}
+
+	command_modifier = {
+		unit_morale_recovery_mult = 0.2
+		unit_morale_loss_mult = -0.1
+	}
+	
+	country_modifier = {
+		country_bureaucracy_mult = -0.15
+		country_influence_mult = 0.1
+		state_loyalists_from_sol_change_mult = 0.1
+	}
+	
+	interest_group_modifier = {
+		interest_group_in_government_approval_add = 1
+	}
+	
+	possible = {
+	}
+	
+	weight = 0.1
+	
+	replace = {																
+	}
+	
+	value = 3
+}
+
+### Sexuality Traits
+
+transgender = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/charismatic.dds"
+
+	character_modifier = {	
+		character_popularity_add = 25
+		character_health_add = 0.05
+	}
+
+	command_modifier = {
+		unit_morale_recovery_mult = 0.1
+		unit_morale_loss_mult = -0.05
+	}
+	
+	country_modifier = {
+		country_bureaucracy_mult = 0.05
+		country_influence_mult = 0.1
+		state_loyalists_from_sol_change_mult = 0.1
+	}
+	
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = 0.2
+		interest_group_in_government_approval_add = 1
+	}
+	
+	possible = {
+		interest_group = {
+			NOR = {
+				is_interest_group_type = ig_devout
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_petite_bourgeoisie
+			}
+		}
+	}
+	
+	weight = 0.1
+	
+	replace = {																
+	}
+	
+	value = 3
+}
+
+homosexual = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/charismatic.dds"
+
+	character_modifier = {	
+		character_popularity_add = 25
+		character_health_add = 0.05
+	}
+
+	command_modifier = {
+		unit_morale_recovery_mult = 0.1
+		unit_morale_loss_mult = -0.05
+	}
+	
+	country_modifier = {
+		country_bureaucracy_mult = 0.05
+		country_influence_mult = 0.1
+		state_loyalists_from_sol_change_mult = 0.1
+	}
+	
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = 0.2
+		interest_group_in_government_approval_add = 1
+	}
+	
+	possible = {
+		interest_group = {
+			NOR = {
+				is_interest_group_type = ig_devout
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_petite_bourgeoisie
+			}
+		}
+	}
+	
+	weight = 0.1
+	
+	replace = {																
+	}
+	
+	value = 3
+}
+
+asexual = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/charismatic.dds"
+
+	character_modifier = {	
+		character_popularity_add = 10
+		character_health_add = 0.05
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		country_bureaucracy_mult = 0.10
+		country_influence_mult = 0.15
+		state_loyalists_from_sol_change_mult = 0.1
+	}
+	
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = 0.2
+		interest_group_in_government_approval_add = 1
+	}
+	
+	possible = {
+		interest_group = {
+			NOR = {
+				is_interest_group_type = ig_devout
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_petite_bourgeoisie
+			}
+		}
+	}
+	
+	weight = 0.1
+	
+	replace = {																
+	}
+	
+	value = 3
+}
